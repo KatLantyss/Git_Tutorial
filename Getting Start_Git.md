@@ -43,8 +43,7 @@ $ git config --global color.ui true
 要開始使用 Git 你必須先建立一個 Git 的 Repository，你可以把它想做是一個資料庫的意思，有兩種方法可以建立一個 Git 的 Repository：
 
 ### 自己建立一個新的 Repository
-例如我現在有個叫做 c++ 專案資料夾，我現在想要開始使用 Git 開始管理，因此我先將目錄切換到 c++ 底下後輸入
-`git init`
+例如我現在有個叫做 c++ 專案資料夾，我現在想要開始使用 Git 開始管理，因此我先將目錄切換到 c++ 底下後輸入`git init`
 ```
 $ git init
 Initialized empty Git repository in /Users/katlantyss/Projects/c++/.git/
