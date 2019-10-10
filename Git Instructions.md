@@ -55,7 +55,7 @@ git add . 會將所有編修過的檔案加入 Stage (新增但還沒 Commit 過
 - `git merge <branch名稱> --no-commit` 合併指定的 branch 到目前的 branch 但是不會產生合併的 commit
 - `git cherry-pick SHA` 將某一個 commit 的內容合併到目前 branch，指定 commit 是使用該 commit 的 SHA 值，例如 `git cherry-pick 7300a6130d9447e18a931e898b64eefedea19544`
 
-##暫存操作(stash)
+## 暫存操作(stash)
 
 - `git stash` 將目前所做的修改都暫存起來
 - `git stash apply` 取出最新一次的暫存
@@ -63,9 +63,9 @@ git add . 會將所有編修過的檔案加入 Stage (新增但還沒 Commit 過
 - `git stash list` 顯示出所有的暫存清單
 - `git stash clear` 清除所有暫存
 
-##常見問題
+## 常見問題
 
-####我的 code 改爛了我想全部重來，我要如何快速回到乾淨的目錄?
+#### 我的 code 改爛了我想全部重來，我要如何快速回到乾淨的目錄?
 - `git reset --hard` 這指令會清除所有與最近一次 commit 不同的修改
 
 #### merge 過程中發生 confict 我想放棄 merge，要如何取消 merge？
