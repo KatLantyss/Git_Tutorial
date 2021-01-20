@@ -28,7 +28,7 @@ $ git branch
 $ git checkout cat
 Switched to branch 'cat'
 ```
-這樣就會從原本的 mater branch 切換到 cat branch 了。
+這樣就會從原本的 master branch 切換到 cat branch 了。
 
 接下來假設我正在 cat 這支 branch 做開發，因此新增一個檔案，加上一些內容，將它 add 到 stage 後再 commit 它。
 ```
