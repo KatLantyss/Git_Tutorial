@@ -13,15 +13,15 @@ $ git config --global user.email "YOUR_MAIL"
 加上 `--global` 表示是全域的設定。你可以使用 `git config --list` 這個指令來看你的 Git 設定內容：
 ```
 $ git config --list
-    user.name=katlantyss
-    user.email=reddawnaudy@gmail.com
+    user.name = YOUR_NAME
+    user.email = YOUR_MAIL
 ```
 或是其實 Git 的設定檔是儲存在你的家目錄的`.gitconfig` 隱藏檔中，你可以使用編輯器將他打開
 ```
 $ cat ~/.gitconfig
     [user]
-        name = katlantyss
-        email = reddawnaudy@gmail.com
+        name = YOUR_NAME
+        email = YOUR_MAIL
 ```
 使用終端機來操作 Git 常會讓人覺得一直打指令很繁瑣，因此 Git 也有提供 `alias` 的功能，例如你可以將`git status` 縮寫為 `git st`，`git checkout` 縮寫為 `git co` 等，你只要這樣設定：
 ```
