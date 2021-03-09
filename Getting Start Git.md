@@ -6,8 +6,8 @@ Git 是一套分散式的版本控制系統，版本控制是一個開發團隊�
 ## Setting Git
 在每一次的 `Git commit`  都會記錄作者的訊息像是 name 及 email ，因此我們使用下面的指令來設定：
 ```
-$ git config --global user.name "katlantyss"
-$ git config --global user.email "reddawnaudy@gmail.com"
+$ git config --global user.name "YOUR_NAME"
+$ git config --global user.email "YOUR_MAIL"
 ```
 
 加上 `--global` 表示是全域的設定。你可以使用 `git config --list` 這個指令來看你的 Git 設定內容：
